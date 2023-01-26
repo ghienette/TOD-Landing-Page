@@ -1,0 +1,205 @@
+* {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.main-content,
+.quote-section,
+.cta-container {
+  padding: 0 180px;
+}
+
+a,
+.footer-wrapper {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+
+.nav-bar,
+.hero,
+.footer-container {
+  background: #1F2937;
+}
+
+.nav-bar {
+  background: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+.nav-bar h2 {
+  font-size: 24px; 
+  padding: 0;
+}
+
+
+.hero {
+    padding-top: 10px;
+}
+
+.hero-banner {
+  padding: 50px 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hero-banner h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-banner p {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-banner-img {
+  width: 400px;
+  height: 300px;
+}
+
+.hero-banner-col-1 {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-banner-col-1 button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+button,
+.cta-wrapper {
+  background-color: #3882F6;
+  
+}
+
+
+/* INFO SECTION */
+
+.main-content {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info-wrapper {
+  max-width: 200px;
+}
+
+.info-wrapper p {
+  text-align: center;
+}
+
+.info-img {
+  width: 200px;
+  
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+  /*display: flex;
+  flex-direction: column; */
+  background: #E5E7EB;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 200;
+  padding: 50px 150px;
+
+}
+
+
+
+.q-text{
+  font-style: italic;
+}
+
+.q-author {
+  text-align: end;
+}
+
+/* CTA section */
+
+.cta-container {
+  color: #F9FAF8; /* need to change this */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+}
+
+.cta-wrapper {
+  border-radius: 8px;
+  height: 150px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-txt {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.signup {
+  border: 1px solid #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 12px;
+  padding: 10px 32px; /*instead of setting width and height, use padding instead*/
+  font-size: 16px;
+}
+
+/* FOOTER */
+.footer-container{
+  padding: 20px;
+  text-align: center;
+}

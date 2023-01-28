@@ -11,7 +11,6 @@ body {
 
 .hero,
 .main-content,
-.quote-section,
 .cta-container {
   padding: 0 180px;
 }
@@ -51,6 +50,10 @@ ul {
   padding: 0;
 }
 
+.nav-bar-link:hover {
+  color: #55729b;
+}
+
 
 .hero {
     padding-top: 10px;
@@ -60,7 +63,7 @@ ul {
   padding: 50px 0;
   height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   
 }
 
@@ -125,7 +128,7 @@ button,
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .info-wrapper {
@@ -144,15 +147,18 @@ button,
 /* QUOTE SECTION */
 
 .quote-section {
-  /*display: flex;
-  flex-direction: column; */
   background: #E5E7EB;
   color: #1F2937;
+  height: 300px;
   font-size: 36px;
   font-weight: 200;
   padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
+
 
 
 
@@ -167,7 +173,7 @@ button,
 /* CTA section */
 
 .cta-container {
-  color: #F9FAF8; /* need to change this */
+  color: #F9FAF8; 
   height: 300px;
   display: flex;
   justify-content: center;
@@ -194,7 +200,7 @@ button,
   border: 1px solid #F9FAF8;
   color: #F9FAF8;
   border-radius: 12px;
-  padding: 10px 32px; /*instead of setting width and height, use padding instead*/
+  padding: 10px 32px; /*instead of setting width and height, padding was used instead*/
   font-size: 16px;
 }
 
